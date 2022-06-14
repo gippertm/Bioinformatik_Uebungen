@@ -17,4 +17,7 @@ BinomialExperiment <- function(n, p=0.5){
 }
 
 for(i in 1:5) BinomialExperiment(10000, p=0.75)
- 
+
+#Wie nach dem Gesetz der großen Zahlen zu erwarten, wird die Schätzung und die Varianz der Ergebnisse mit einer hohen 
+#Stichprobengröße (n) immer besser und nähert sich dem tatsächlichen Wert für p an. Dabei gibt es bei niedrigen 
+#zweistelligen n noch sehr hohe Schwankungen der Ergebnisse und diese liegen nur selten nahe am tatsächlichen Wert.
